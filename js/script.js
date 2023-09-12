@@ -514,21 +514,21 @@ function addCommasToNumber(num) {
 // Init APP
 function init() {
   switch (global.currentPage) {
-    case "/":
-    case "/index.html":
+    case "https://comforting-sable-54f8a4.netlify.app/":
+    case "https://comforting-sable-54f8a4.netlify.app/index.html":
       displaySlider();
       displayPopularMovies();
       break;
-    case "/shows.html":
+    case "https://comforting-sable-54f8a4.netlify.app/shows.html":
       displayPopularTVShows();
       break;
-    case "/movie-details.html":
+    case "https://comforting-sable-54f8a4.netlify.app/movie-details.html":
       displayMovieDetails();
       break;
-    case "/tv-details.html":
+    case "https://comforting-sable-54f8a4.netlify.app/tv-details.html":
       displayShowDetails();
       break;
-    case "/search.html":
+    case "https://comforting-sable-54f8a4.netlify.app/search.html":
       search();
       break;
   }
