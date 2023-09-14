@@ -514,8 +514,8 @@ function addCommasToNumber(num) {
 // Init APP
 function init() {
   switch (global.currentPage) {
-    case "/":
-    case "/index.html":
+    case "https://comforting-sable-54f8a4.netlify.app/":
+    case "https://comforting-sable-54f8a4.netlify.app/index.html":
       displaySlider();
       displayPopularMovies();
       break;
