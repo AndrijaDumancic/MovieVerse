@@ -519,7 +519,7 @@ function init() {
       displaySlider();
       displayPopularMovies();
       break;
-    case "/shows.html":
+    case "https://comforting-sable-54f8a4.netlify.app/shows":
       displayPopularTVShows();
       break;
     case "/movie-details.html":
