@@ -514,12 +514,12 @@ function addCommasToNumber(num) {
 // Init APP
 function init() {
   switch (global.currentPage) {
-    case "https://comforting-sable-54f8a4.netlify.app":
-    case "https://comforting-sable-54f8a4.netlify.app/index.html":
+    case "/":
+    case "/index.html":
       displaySlider();
       displayPopularMovies();
       break;
-    case "https://comforting-sable-54f8a4.netlify.app/shows":
+    case "/shows.html":
       displayPopularTVShows();
       break;
     case "/movie-details.html":
